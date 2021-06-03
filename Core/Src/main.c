@@ -102,7 +102,7 @@ int main(void)
 		   	  }
 	  else {
 		  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_13, GPIO_PIN_RESET);
-		  HAL_Delay(400);
+		  HAL_Delay(300);
 		  a=0;
 	  	  }
 
